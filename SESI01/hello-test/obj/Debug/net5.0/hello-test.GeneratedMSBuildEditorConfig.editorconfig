@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = hello_test
-build_property.ProjectDir = D:\CodingDirectory\SESI1\hello-test\
+build_property.ProjectDir = d:\CodingDirectory\Latihan_C#\SESI01\hello-test\
