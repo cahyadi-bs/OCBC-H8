@@ -4,12 +4,11 @@ public class Logika8
 {
     public static void Main()
     {
-        int num1,num2,choice;
-        int num3;
+        int num,limit,choice;
         Console.Write("Masukkan angka: ");
-        num1 = int.Parse(Console.ReadLine());
+        num = int.Parse(Console.ReadLine());
         Console.Write("Masukkan batas: ");
-        num2 = int.Parse(Console.ReadLine()); 
+        limit = int.Parse(Console.ReadLine()); 
         Console.WriteLine("========ACTION========");
         Console.WriteLine("1. Penjumlahan");
         Console.WriteLine("2. Pengurangan");
@@ -22,40 +21,29 @@ public class Logika8
         switch(choice)
         {
             case 1:
-                for(int i=1; i<num2; i++)
+                for(int i=1; i<limit; i++)
                 {
-                    
+                    Console.WriteLine($"Pertambahan dari {i} + {num} adalah {i+num}");
                 }
                 break;
             case 2:
+                for(int i=1; i<limit; i++)
+                {
+                    Console.WriteLine($"Pengurangan dari {i} - {num} adalah {i-num}");
+                }
+                break;
             case 3:
+                for(int i=1; i<limit; i++)
+                {
+                    Console.WriteLine($"Perkalian dari {i} x {num} adalah {i*num}");
+                }
+                break;
             case 4:
+                for(int i=1; i<limit; i++)
+                {
+                    Console.WriteLine($"Pembagian dari {i} / {num} adalah {i/num}");
+                }
+                break;
         }
     }
 }
-
-// inputan nilai = 1;
-// input start loop = 1
-// input end = 10
-// input (+, *, -)
-
-// loop I=1 s/d 10
-
-// jika + hasilnya
-// i=1 output 1+(1 / inputan nilai)
-// i=2 output 2+(1 / inputan nilai)
-// dst
-
-// jika - hasilnya
-// i=1 output 1-(1 / inputan nilai)
-// i=2 output 2-(1 / inputan nilai)
-// dst
-
-// jika * hasilnya
-// i=1 output 1*(1 / inputan nilai)
-// i=2 output 2*(1 / inputan nilai)
-// dst
-
-// jika / hasilnya
-// i=1 output 1/(1 / inputan nilai)
-// i=2 output 2/(1 / inputan nilai)
