@@ -1,0 +1,10 @@
+link github:
+https://github.com/cahyadi-bs/OCBC-H8
+
+Petunjuk penggunaan:
+1. menggunakan mono
+2. masuk ke menu
+3. memilih menu
+4. hasil muncul
+5. meminta pengulangan
+6. selesai
