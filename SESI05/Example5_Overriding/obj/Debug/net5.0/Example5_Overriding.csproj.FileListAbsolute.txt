@@ -1,0 +1,16 @@
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\obj\Debug\net5.0\Example5_Overriding.csproj.AssemblyReference.cache
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\obj\Debug\net5.0\Example5_Overriding.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\obj\Debug\net5.0\Example5_Overriding.AssemblyInfoInputs.cache
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\obj\Debug\net5.0\Example5_Overriding.AssemblyInfo.cs
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\obj\Debug\net5.0\Example5_Overriding.csproj.CoreCompileInputs.cache
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\bin\Debug\net5.0\Example5_Overriding.exe
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\bin\Debug\net5.0\Example5_Overriding.deps.json
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\bin\Debug\net5.0\Example5_Overriding.runtimeconfig.json
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\bin\Debug\net5.0\Example5_Overriding.runtimeconfig.dev.json
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\bin\Debug\net5.0\Example5_Overriding.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\bin\Debug\net5.0\ref\Example5_Overriding.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\bin\Debug\net5.0\Example5_Overriding.pdb
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\obj\Debug\net5.0\Example5_Overriding.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\obj\Debug\net5.0\ref\Example5_Overriding.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\obj\Debug\net5.0\Example5_Overriding.pdb
+D:\CodingDirectory\Latihan_C#\SESI05\Example5_Overriding\obj\Debug\net5.0\Example5_Overriding.genruntimeconfig.cache

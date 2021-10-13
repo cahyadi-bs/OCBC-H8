@@ -1,0 +1,16 @@
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\obj\Debug\net5.0\Example3_Inheritance.csproj.AssemblyReference.cache
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\obj\Debug\net5.0\Example3_Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\obj\Debug\net5.0\Example3_Inheritance.AssemblyInfoInputs.cache
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\obj\Debug\net5.0\Example3_Inheritance.AssemblyInfo.cs
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\obj\Debug\net5.0\Example3_Inheritance.csproj.CoreCompileInputs.cache
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\bin\Debug\net5.0\Example3_Inheritance.exe
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\bin\Debug\net5.0\Example3_Inheritance.deps.json
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\bin\Debug\net5.0\Example3_Inheritance.runtimeconfig.json
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\bin\Debug\net5.0\Example3_Inheritance.runtimeconfig.dev.json
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\bin\Debug\net5.0\Example3_Inheritance.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\bin\Debug\net5.0\ref\Example3_Inheritance.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\bin\Debug\net5.0\Example3_Inheritance.pdb
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\obj\Debug\net5.0\Example3_Inheritance.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\obj\Debug\net5.0\ref\Example3_Inheritance.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\obj\Debug\net5.0\Example3_Inheritance.pdb
+D:\CodingDirectory\Latihan_C#\SESI05\Example3_Inheritance\obj\Debug\net5.0\Example3_Inheritance.genruntimeconfig.cache

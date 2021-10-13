@@ -1,0 +1,16 @@
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\obj\Debug\net5.0\Example_All.csproj.AssemblyReference.cache
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\obj\Debug\net5.0\Example_All.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\obj\Debug\net5.0\Example_All.AssemblyInfoInputs.cache
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\obj\Debug\net5.0\Example_All.AssemblyInfo.cs
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\obj\Debug\net5.0\Example_All.csproj.CoreCompileInputs.cache
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\bin\Debug\net5.0\Example_All.exe
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\bin\Debug\net5.0\Example_All.deps.json
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\bin\Debug\net5.0\Example_All.runtimeconfig.json
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\bin\Debug\net5.0\Example_All.runtimeconfig.dev.json
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\bin\Debug\net5.0\Example_All.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\bin\Debug\net5.0\ref\Example_All.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\bin\Debug\net5.0\Example_All.pdb
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\obj\Debug\net5.0\Example_All.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\obj\Debug\net5.0\ref\Example_All.dll
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\obj\Debug\net5.0\Example_All.pdb
+D:\CodingDirectory\Latihan_C#\SESI05\Example_All\obj\Debug\net5.0\Example_All.genruntimeconfig.cache
