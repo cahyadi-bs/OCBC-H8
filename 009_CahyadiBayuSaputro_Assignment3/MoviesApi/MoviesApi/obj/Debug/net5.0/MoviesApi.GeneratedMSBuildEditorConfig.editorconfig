@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = Kantor_WebAPI
-build_property.ProjectDir = d:\CodingDirectory\Latihan_C#\SESI09\Kantor_WebAPI\Kantor_WebAPI\
+build_property.RootNamespace = MoviesApi
+build_property.ProjectDir = D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_Assignment3\MoviesApi\MoviesApi\
