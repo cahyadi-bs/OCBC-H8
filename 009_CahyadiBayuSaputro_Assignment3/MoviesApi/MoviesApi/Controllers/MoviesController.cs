@@ -75,7 +75,7 @@ namespace MoviesApi.Controllers
             string query = @"
                 insert into movies
                 (Name,Genre,Duration,ReleaseDate)
-                   values (@MovieName, @MovieGenre, @MovieDuration, @MovieReleaseDate);
+                values (@MovieName, @MovieGenre, @MovieDuration, @MovieReleaseDate);
             ";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("DefaultConnection");
