@@ -1,0 +1,11 @@
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\TestDocker.exe
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\appsettings.Development.json
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\appsettings.json
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\TestDocker.dll
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\TestDocker.deps.json
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\TestDocker.runtimeconfig.json
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\TestDocker.pdb
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\Microsoft.OpenApi.dll
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CodingDirectory\Latihan_C#\SESI13\TestDocker\TestDocker\bin\Release\net5.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

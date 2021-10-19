@@ -1,0 +1,15 @@
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
+WORKDIR /src
+COPY ["WepApiDemo/WepApiDemo.csproj", "WepApiDemo/"]
+RUN dotnet restore "WepApiDemo/WepApiDemo.csproj"
+COPY . .
+WORKDIR "/src/WepApiDemo"
+RUN dotnet build "WepApiDemo.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "WepApiDemo.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "WepApiDemo.dll"]

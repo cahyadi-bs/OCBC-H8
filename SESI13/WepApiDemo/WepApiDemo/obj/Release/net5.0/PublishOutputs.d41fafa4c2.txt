@@ -1,0 +1,11 @@
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\WepApiDemo.exe
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\appsettings.Development.json
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\appsettings.json
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\WepApiDemo.dll
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\WepApiDemo.deps.json
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\WepApiDemo.runtimeconfig.json
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\WepApiDemo.pdb
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\Microsoft.OpenApi.dll
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CodingDirectory\Latihan_C#\SESI13\WepApiDemo\WepApiDemo\bin\Release\net5.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
