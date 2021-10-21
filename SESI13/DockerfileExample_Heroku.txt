@@ -22,4 +22,4 @@ RUN dotnet publish --no-restore -c Release -o /app
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet WepApiDemo.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet [NamaProject].dll

@@ -1,0 +1,249 @@
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\appsettings.json
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\PaymentAPI.exe
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\PaymentAPI.deps.json
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\PaymentAPI.runtimeconfig.json
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\PaymentAPI.runtimeconfig.dev.json
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\ref\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\PaymentAPI.pdb
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.AssemblyReference.cache
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.AssemblyInfoInputs.cache
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.AssemblyInfo.cs
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.CoreCompileInputs.cache
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.Manifest.cache
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.xml
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\scopedcss\bundle\PaymentAPI.styles.css
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.RazorTargetAssemblyInfo.cache
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\ref\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.pdb
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\obj\Debug\net5.0\PaymentAPI.genruntimeconfig.cache
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Humanizer.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\MySqlConnector.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Hacktiv8\C#_FinalProject_MySQL\PaymentAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\appsettings.json
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.StaticWebAssets.xml
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.exe
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.deps.json
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.runtimeconfig.json
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.runtimeconfig.dev.json
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\ref\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.pdb
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Humanizer.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\MySqlConnector.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.AssemblyReference.cache
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.AssemblyInfoInputs.cache
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.AssemblyInfo.cs
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.CoreCompileInputs.cache
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.Manifest.cache
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.xml
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\scopedcss\bundle\PaymentAPI.styles.css
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.RazorTargetAssemblyInfo.cache
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\ref\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.pdb
+D:\Hacktiv8\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.genruntimeconfig.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\appsettings.json
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.StaticWebAssets.xml
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.exe
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.deps.json
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.runtimeconfig.json
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.runtimeconfig.dev.json
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\ref\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\PaymentAPI.pdb
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Humanizer.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\MySqlConnector.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.AssemblyReference.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.AssemblyInfoInputs.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.AssemblyInfo.cs
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.CoreCompileInputs.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.Manifest.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.xml
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\scopedcss\bundle\PaymentAPI.styles.css
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.RazorTargetAssemblyInfo.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\ref\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.pdb
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT\PaymentAPI\obj\Debug\net5.0\PaymentAPI.genruntimeconfig.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\appsettings.json
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\PaymentAPI.StaticWebAssets.xml
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\PaymentAPI.exe
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\PaymentAPI.deps.json
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\PaymentAPI.runtimeconfig.json
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\PaymentAPI.runtimeconfig.dev.json
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\ref\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\PaymentAPI.pdb
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Humanizer.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\MySqlConnector.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.AssemblyReference.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.AssemblyInfoInputs.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.AssemblyInfo.cs
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.CoreCompileInputs.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.Manifest.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.xml
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\scopedcss\bundle\PaymentAPI.styles.css
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.RazorTargetAssemblyInfo.cache
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\ref\PaymentAPI.dll
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.pdb
+D:\Hacktiv8\C#_FinalProject\C#_FinalProject_MySQL _WithJWT&Refresh\PaymentAPI\obj\Debug\net5.0\PaymentAPI.genruntimeconfig.cache
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\appsettings.json
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\PaymentAPI.StaticWebAssets.xml
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\PaymentAPI.exe
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\PaymentAPI.deps.json
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\PaymentAPI.runtimeconfig.json
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\PaymentAPI.runtimeconfig.dev.json
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\PaymentAPI.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\ref\PaymentAPI.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\PaymentAPI.pdb
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Humanizer.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\MySqlConnector.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.AssemblyReference.cache
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.AssemblyInfoInputs.cache
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.AssemblyInfo.cs
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.CoreCompileInputs.cache
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.Manifest.cache
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.xml
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\scopedcss\bundle\PaymentAPI.styles.css
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.RazorTargetAssemblyInfo.cache
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\ref\PaymentAPI.dll
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.pdb
+D:\CodingDirectory\Latihan_C#\009_CahyadiBayuSaputro_FinalProject\PaymentAPI\obj\Debug\net5.0\PaymentAPI.genruntimeconfig.cache

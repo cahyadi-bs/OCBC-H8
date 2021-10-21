@@ -1,0 +1,133 @@
+Nama Peserta : Cahyadi Bayu Saputro
+Kode Peserta : 009
+
+==========================================================
+
+Cara Panduan Setiap Endpoint
+bila project dijalankan menggunakan perintah "dotnet run"
+url yang digunakan adalah https://localhost:5001/
+semua panduan menggunakan aplikasi postman
+
+==========================================================
+
+1. Endpoint /api/AuthManagement/Register (POST)
+
+Endpoint ini digunakan untuk melakukan registrasi akun ke aplikasi yang akan disimpan di database.
+pada aplikasi postman memasukkan url https://localhost:5001/api/AuthManagement/Register
+kemudian mengganti method menjadi post, lalu memasukkan body dengan format sebagai berikut:
+
+{
+    "username" : "test",
+    "email" : "test@test.com",
+    "password" : "password"
+}
+
+kemudian klik send
+value username,email dan password disesuakan dengan keinginan user. jangan lupa untuk merubah format menjadi raw dan format json.
+
+===========================================================
+
+2. Endpoint /api/AuthManagement/Login (POST)
+
+Endpoint ini digunakan untuk melakukan login atau mendapatkan akses ke api.
+pada aplikasi postman memasukkan url https://localhost:5001/api/AuthManagement/Login
+kemudian mengganti method menjadi post, lalu memasukkan body dengan format sebagai berikut:
+
+{
+    "email" : "test@test.com",
+    "password" : "password"
+}
+
+kemudian klik send
+value email dan password disesuakan dengan value yang telah dilakukan sebelumnya pada endpoint register. 
+jangan lupa untuk merubah format menjadi raw dan format json.
+
+============================================================
+
+3. Endpoint /api/AuthManagement/RefreshToken (POST)
+
+Endpoint ini digunakan untuk memberi tahu apakah token yang didapatkan pada saat login telah berakhir atau belum
+pada aplikasi postman memasukkan url https://localhost:5001/api/AuthManagement/RefreshToken
+kemudian mengganti method menjadi post, lalu memasukkan body dengan format sebagai berikut:
+
+{
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjJkMjBkOGRiLWQ3MTAtNDY2Yy1iYWE2LTYwZjYwZjM1MDA0ZSIsImVtYWlsIjoiZ2FsaWhAZ21haWwuY29tIiwic3ViIjoiZ2FsaWhAZ21haWwuY29tIiwianRpIjoiMTg0NTM4NjEtOWI3ZC00M2EwLWFmZjEtOGU1ZjU3N2VhZDBiIiwibmJmIjoxNjM0ODAzNzk5LCJleHAiOjE2MzQ4MDczOTgsImlhdCI6MTYzNDgwMzc5OX0.cg4gLUYjliVNa-lJuW9L-B15CwYYTk0RQvB4ISNOVt0",
+    "RefreshToken": "2OPMUDUHR5V4958KBTXZPOL8XDS1QNT808Y17f2480e-59ef-41f6-a482-0994bd7a9070"
+}
+
+kemudian klik send
+value Token dan Refresh disesuakan dengan value yang telah didapatkan ketika menggunakan endpoint login. 
+jangan lupa untuk merubah format menjadi raw dan format json.
+
+=============================================================
+
+4. Endpoint /api/Payments (GET)
+
+endpoint ini digunakan untuk mendapatkan semua data payment yang berada di database.
+pada aplikasi postman memasukkan url https://localhost:5001/api/Payments
+kemudian mengganti method menjadi get
+menambahkan header pada tab header dengan nama Authorization dengan value "Bearer {token}" dimana {token} merupakan token yang didapatkan dari endpoint /api/AuthManagement/Login 
+kemudian klik send
+
+=============================================================
+
+5. Endpoint /api/Payments/{id} (GET)
+
+endpoint ini digunakan untuk endapatkan 1 data payment berdasarkan paymentDetailId yang berada di database.
+pada aplikasi postman memasukkan url https://localhost:5001/api/Payments/{id}. id pada {} diganti dengan paymentDetailId yang ingin ditampilkan.
+kemudian mengganti method menjadi get
+menambahkan header pada tab header dengan nama Authorization dengan value "Bearer {token}" dimana {token} merupakan token yang didapatkan dari endpoint /api/AuthManagement/Login 
+kemudian klik send
+
+=============================================================
+
+6. Endpoint /api/Payments (POST)
+
+endpoint ini digunakan untuk memasukkan data baru ke database
+pada aplikasi postman memasukkan url https://localhost:5001/api/Payments/
+kemudian mengganti method menjadi post
+menambahkan header pada tab header dengan nama Authorization dengan value "Bearer {token}" dimana {token} merupakan token yang didapatkan dari endpoint /api/AuthManagement/Login 
+kemudian memasukkan body dengan format sebagai berikut:
+
+{
+    "cardOwnerName": "string",
+    "cardNumber": "string",
+    "expirationDate": "string",
+    "securityCode": "string"
+}
+
+kemudian klik send
+value cardOwnerName,cardNumber,expirationDate dan securityCode disesuaikan dengan keinginan user. 
+jangan lupa untuk merubah format menjadi raw dan format json.
+
+=============================================================
+
+7. Endpoint /api/Payments/{id} (PUT)
+
+endpoint ini digunakan untuk memperbaharui data ke database
+pada aplikasi postman memasukkan url https://localhost:5001/api/Payments/{id} dimana id merupakan id dari data yang akan diperbaharui.
+kemudian mengganti method menjadi put
+menambahkan header pada tab header dengan nama Authorization dengan value "Bearer {token}" dimana {token} merupakan token yang didapatkan dari endpoint /api/AuthManagement/Login 
+kemudian memasukkan body dengan format sebagai berikut:
+
+{
+    "paymentDetailId": 1,
+    "cardOwnerName": "string",
+    "cardNumber": "string",
+    "expirationDate": "string",
+    "securityCode": "string"
+}
+
+kemudian klik send
+value id disesuaikan dengan id dari data yang akan di perbaharui dan value cardOwnerName,cardNumber,expirationDate dan securityCode disesuaikan dengan keinginan user. 
+jangan lupa untuk merubah format menjadi raw dan format json.
+
+=============================================================
+
+8. Endpoint /api/Payments/{id} (DELETE)
+
+endpoint ini digunakan untuk menghapus data yang terdapat di database
+pada aplikasi postman memasukkan url https://localhost:5001/api/Payments/{id} dimana id merupakan id dari data yang akan dihapus
+kemudian mengganti method menjadi delete
+menambahkan header pada tab header dengan nama Authorization dengan value "Bearer {token}" dimana {token} merupakan token yang didapatkan dari endpoint /api/AuthManagement/Login 
+kemudian klik send

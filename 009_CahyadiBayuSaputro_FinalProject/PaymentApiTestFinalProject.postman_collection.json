@@ -1,0 +1,287 @@
+{
+	"info": {
+		"_postman_id": "51b07e54-3244-470c-b4a6-b8a869558148",
+		"name": "PaymentApiTestFinalProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"galih\",\r\n    \"email\" : \"galih@gmail.com\",\r\n    \"password\" : \"Pass1234!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/AuthManagement/Register",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"AuthManagement",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"galih@gmail.com\",\r\n    \"password\" : \"Pass1234!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/AuthManagement/Login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"AuthManagement",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RefreshToken",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjJkMjBkOGRiLWQ3MTAtNDY2Yy1iYWE2LTYwZjYwZjM1MDA0ZSIsImVtYWlsIjoiZ2FsaWhAZ21haWwuY29tIiwic3ViIjoiZ2FsaWhAZ21haWwuY29tIiwianRpIjoiMTg0NTM4NjEtOWI3ZC00M2EwLWFmZjEtOGU1ZjU3N2VhZDBiIiwibmJmIjoxNjM0ODAzNzk5LCJleHAiOjE2MzQ4MDczOTgsImlhdCI6MTYzNDgwMzc5OX0.cg4gLUYjliVNa-lJuW9L-B15CwYYTk0RQvB4ISNOVt0\",\r\n    \"RefreshToken\": \"2OPMUDUHR5V4958KBTXZPOL8XDS1QNT808Y17f2480e-59ef-41f6-a482-0994bd7a9070\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/AuthManagement/RefreshToken",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"AuthManagement",
+						"RefreshToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjJkMjBkOGRiLWQ3MTAtNDY2Yy1iYWE2LTYwZjYwZjM1MDA0ZSIsImVtYWlsIjoiZ2FsaWhAZ21haWwuY29tIiwic3ViIjoiZ2FsaWhAZ21haWwuY29tIiwianRpIjoiYjMwZmZjNDQtZGExNi00MDEzLTk4MzctZjJhNjNiMDc5MWYzIiwibmJmIjoxNjM0ODA1NzI2LCJleHAiOjE2MzQ4MDkzMjYsImlhdCI6MTYzNDgwNTcyNn0.o4069V_KcPOGBf4qTMlzKEClQvlLf-hI-bec2mj0Wls",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Payments",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Payments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetById",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjJkMjBkOGRiLWQ3MTAtNDY2Yy1iYWE2LTYwZjYwZjM1MDA0ZSIsImVtYWlsIjoiZ2FsaWhAZ21haWwuY29tIiwic3ViIjoiZ2FsaWhAZ21haWwuY29tIiwianRpIjoiMTg0NTM4NjEtOWI3ZC00M2EwLWFmZjEtOGU1ZjU3N2VhZDBiIiwibmJmIjoxNjM0ODAzNzk5LCJleHAiOjE2MzQ4MDczOTgsImlhdCI6MTYzNDgwMzc5OX0.cg4gLUYjliVNa-lJuW9L-B15CwYYTk0RQvB4ISNOVt0",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/api/Payments/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Payments",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjJkMjBkOGRiLWQ3MTAtNDY2Yy1iYWE2LTYwZjYwZjM1MDA0ZSIsImVtYWlsIjoiZ2FsaWhAZ21haWwuY29tIiwic3ViIjoiZ2FsaWhAZ21haWwuY29tIiwianRpIjoiYjMwZmZjNDQtZGExNi00MDEzLTk4MzctZjJhNjNiMDc5MWYzIiwibmJmIjoxNjM0ODA1NzI2LCJleHAiOjE2MzQ4MDkzMjYsImlhdCI6MTYzNDgwNTcyNn0.o4069V_KcPOGBf4qTMlzKEClQvlLf-hI-bec2mj0Wls",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cardOwnerName\": \"string\",\r\n    \"cardNumber\": \"string\",\r\n    \"expirationDate\": \"string\",\r\n    \"securityCode\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Payments",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Payments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjJkMjBkOGRiLWQ3MTAtNDY2Yy1iYWE2LTYwZjYwZjM1MDA0ZSIsImVtYWlsIjoiZ2FsaWhAZ21haWwuY29tIiwic3ViIjoiZ2FsaWhAZ21haWwuY29tIiwianRpIjoiYjMwZmZjNDQtZGExNi00MDEzLTk4MzctZjJhNjNiMDc5MWYzIiwibmJmIjoxNjM0ODA1NzI2LCJleHAiOjE2MzQ4MDkzMjYsImlhdCI6MTYzNDgwNTcyNn0.o4069V_KcPOGBf4qTMlzKEClQvlLf-hI-bec2mj0Wls",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"paymentDetailId\": 3,\r\n    \"cardOwnerName\": \"stringGanti2x\",\r\n    \"cardNumber\": \"stringGanti2x\",\r\n    \"expirationDate\": \"stringGanti2x\",\r\n    \"securityCode\": \"stringGanti2x\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Payments/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Payments",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjJkMjBkOGRiLWQ3MTAtNDY2Yy1iYWE2LTYwZjYwZjM1MDA0ZSIsImVtYWlsIjoiZ2FsaWhAZ21haWwuY29tIiwic3ViIjoiZ2FsaWhAZ21haWwuY29tIiwianRpIjoiYjMwZmZjNDQtZGExNi00MDEzLTk4MzctZjJhNjNiMDc5MWYzIiwibmJmIjoxNjM0ODA1NzI2LCJleHAiOjE2MzQ4MDkzMjYsImlhdCI6MTYzNDgwNTcyNn0.o4069V_KcPOGBf4qTMlzKEClQvlLf-hI-bec2mj0Wls",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/api/Payments/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Payments",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjJkMjBkOGRiLWQ3MTAtNDY2Yy1iYWE2LTYwZjYwZjM1MDA0ZSIsImVtYWlsIjoiZ2FsaWhAZ21haWwuY29tIiwic3ViIjoiZ2FsaWhAZ21haWwuY29tIiwianRpIjoiMTllMWUwY2ItN2MyNy00OWQ3LTg3NDctMTYxMDc1NzNlMDJkIiwibmJmIjoxNjM0ODE5NDM4LCJleHAiOjE2MzQ4MjMwMzgsImlhdCI6MTYzNDgxOTQzOH0.imVhxo3l4MvFtPWAt8mo6uil5KpSh5KV6GnYvEQ5jYY",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

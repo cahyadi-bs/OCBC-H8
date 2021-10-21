@@ -12,6 +12,7 @@ using Microsoft.IdentityModel.Tokens;
 using TodoApp.Configuration; 
 using TodoApp.Models.DTOs.Requests; 
 using TodoApp.Models.DTOs.Responses; 
+using Microsoft.AspNetCore.Authorization;
 
 using Microsoft.EntityFrameworkCore;
 using TodoApp.Data;
@@ -21,6 +22,7 @@ namespace TodoApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class AuthManagementController : ControllerBase
     {
         private readonly UserManager<IdentityUser> _userManager;

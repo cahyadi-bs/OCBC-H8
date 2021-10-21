@@ -142,3 +142,8 @@ D:\CodingDirectory\Latihan_C#\SESI11\TodoApp\obj\Debug\net5.0\TodoApp.dll
 D:\CodingDirectory\Latihan_C#\SESI11\TodoApp\obj\Debug\net5.0\ref\TodoApp.dll
 D:\CodingDirectory\Latihan_C#\SESI11\TodoApp\obj\Debug\net5.0\TodoApp.pdb
 D:\CodingDirectory\Latihan_C#\SESI11\TodoApp\obj\Debug\net5.0\TodoApp.genruntimeconfig.cache
+D:\CodingDirectory\Latihan_C#\SESI11\TodoApp\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\CodingDirectory\Latihan_C#\SESI11\TodoApp\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\CodingDirectory\Latihan_C#\SESI11\TodoApp\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\CodingDirectory\Latihan_C#\SESI11\TodoApp\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\CodingDirectory\Latihan_C#\SESI11\TodoApp\obj\Debug\net5.0\TodoApp.csproj.CopyComplete
