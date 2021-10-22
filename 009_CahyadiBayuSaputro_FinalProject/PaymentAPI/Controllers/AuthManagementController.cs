@@ -76,7 +76,7 @@ namespace PaymentAPI.Controllers
                     return Ok(new MessageResponse(){
                         Success = true,
                         Messages = new List<string>(){
-                            "Registration Sucessfull"
+                            "Registration Sucessfull. Please Login"
                         }
                     });
                 } else {

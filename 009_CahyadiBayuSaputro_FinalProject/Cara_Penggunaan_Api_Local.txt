@@ -1,5 +1,15 @@
+==========================================================
+
 Nama Peserta : Cahyadi Bayu Saputro
 Kode Peserta : 009
+
+==========================================================
+Panduan Singkat WebApi
+
+untuk lokal url yang digunakan adalah https://localhost:5001/, terdapat 2 controller yaitu AuthManagemenet dan Payment. Panduan sebagai berikut.
+1. Mendaftarkan diri dengan mengunakan Endpoint /api/AuthManagement/Register
+2. Mendapatkan Token dengan cara menggunakan Endpoint /api/AuthManagement/Login dengan kredential yang sama seperti pada saat mendaftarkan diri.
+3. Setelah mendapatkan token user dapat melakukan operasi CRUD yang terdapat pada controller Payment.
 
 ==========================================================
 
