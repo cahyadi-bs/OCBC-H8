@@ -1,0 +1,6 @@
+
+<label for="item-input">Add a value: </label>
+<input type="text" id="item-input" #newItem>
+<button (click)="sendData(newItem.value)">Klik {{ messageButton }}</button>
+
+<button (click)="decrease()">Decrease</button>

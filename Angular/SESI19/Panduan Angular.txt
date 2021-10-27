@@ -1,0 +1,1 @@
+1. intall angular CLI --> mpn install -g

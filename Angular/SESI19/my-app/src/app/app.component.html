@@ -1,0 +1,12 @@
+<h1>Test Angular, Hello World</h1>
+<app-header [message]="title"></app-header>
+<app-aside [alert]="test"></app-aside>
+<app-button (newEventHandler)="getItem($event)" (newEventHandler2)="decreaseCounter()" ></app-button>
+<app-input  (newInputHandler)="getInput($event)"></app-input>
+
+<p>{{ counter }}x diklik</p>
+<p> value yang diinput: {{ value }}</p>
+
+<h2>Two-way Binding Example</h2>    
+<input [(ngModel)]="fullName" /> <br/><br/>    
+<p> {{fullName}} </p>  

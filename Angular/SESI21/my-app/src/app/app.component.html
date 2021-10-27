@@ -1,0 +1,33 @@
+<h1>SESI 20</h1>
+
+<ul>
+  <ng-template ngFor let-people [ngForOf]=peoples >
+    <li *ngIf ="people.country === 'UK'" class="text-blue">{{ people.name }} {{ people.country }} </li>
+    <li *ngIf ="people.country === 'USA'" class="text-red">{{ people.name }} {{ people.country }} </li>
+    <li *ngIf ="people.country === 'HK'" class="text-green">{{ people.name }} {{ people.country }} </li>
+    <li *ngIf ="people.country !== 'UK' && people.country !== 'USA' && people.country !== 'HK'">{{ people.name }} {{ people.country }} </li>
+  </ng-template>
+</ul>
+
+<ul
+  *ngFor="let people of peoples; let i = index"
+  [ngSwitch] = "people.country"
+>
+  <li *ngSwitchCase="'UK'" class="text-blue">{{ i+1 }}. {{ people.name }} {{ people.country }} </li>
+  <li *ngSwitchCase="'USA'" class="text-red">{{ i+1 }}. {{ people.name }} {{ people.country }} </li>
+  <li *ngSwitchCase="'HK'" class="text-green">{{ i+1 }}. {{ people.name }} {{ people.country }} </li>
+  <li *ngSwitchDefault>{{ i+1 }}. {{ people.name }} {{ people.country }} </li>
+</ul>
+
+<!-- <ul>
+  <li *ngFor="let person of people" [ngStyle]="{'color': (person.country === 'USA') ? 'red' : (person.country === 'HK') ? 'blue' : (person.country === 'MARS') ? 'green' : ''}">
+      {{person.name}}, {{person.age}}th dari {{person.country}}
+  </li>
+</ul> -->
+
+<!-- <ul>
+  <li *ngFor="let person of people" [class.text-red]="person.country==='USA'" [class.text-blue]="person.country==='HK'" [class.text-green]="person.country==='MARS'">
+      {{person.name}}, {{person.age}}th dari {{person.country}}
+  </li>
+</ul> -->
+<p>{{ peoples | json }}</p>
