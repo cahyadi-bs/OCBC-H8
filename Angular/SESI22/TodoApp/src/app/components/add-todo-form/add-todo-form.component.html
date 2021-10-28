@@ -1,4 +1,4 @@
-<form>
+<!-- <form>
     <div class="input-group mb-3">
         <input 
             type="text"
@@ -13,5 +13,35 @@
             class="btn btn-primary"
             (click)="addTodo()"
         />
+    </div>
+</form> -->
+
+<form [formGroup]="todoForm" (ngSubmit)="handlerTodoForm()">
+    <div class="input-group mb-3">
+        <input 
+        type="text" 
+        name="taskName" 
+        id="taskName"
+        placeholder="Enter your todo ....."
+        class="form-control"
+        formControlName="taskName"
+        (change)="handleIsSubmittedState()"
+        autocomplete="off"
+        >
+        <input 
+        type="submit" 
+        value="Add Todo" 
+        class="btn btn-primary"
+        >
+    </div>
+    
+
+    <div class="alert alert-danger mt-1" *ngIf="isSubmitted && taskName && taskName.invalid">
+        <div *ngIf="taskName.errors?.required">
+            Todo Name cannot be empty.
+        </div>
+        <div *ngIf="taskName.errors?.minlength">
+            Todo name must be {{ taskName?.errors?.minlength?.requiredLength }} characters long.
+        </div>
     </div>
 </form>

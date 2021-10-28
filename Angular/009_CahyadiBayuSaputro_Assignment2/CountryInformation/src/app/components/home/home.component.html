@@ -1,0 +1,89 @@
+<section class="text-center container">
+    <div class="row pt-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Fun Facts About Countries</h1>
+        <p>
+            <button class="btn btn-dark my-2 mr-3" (click)=goToHome()>Go Back to Homepage</button>
+            <button class="btn btn-dark my-2" (click)=goToAll()>List of All Countries</button>
+        </p>
+    </div>
+    </div>
+</section>
+
+<section class="text-center container" *ngIf="isInHome" >
+    <div class="row py-lg-2">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h2 class="text-secondary">Three Most Populated Countries</h2>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 d-flex justify-content-center">
+        <!-- <div class="col mb-4">
+            <div class="card h-100 text-white bg-secondary">
+            <div class="card-body">
+                <h5 class="card-title text-center">Country Name</h5>
+                <p class="card-text">People</p>
+            </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100 text-white bg-secondary">
+                <div class="card-body">
+                <h5 class="card-title text-center">Country Name</h5>
+                <p class="card-text">People</p>
+                </div>
+            </div>
+        </div> -->
+        <div class="col mb-3" *ngFor="let country of sortByPopulation() | slice:0:3;let i = index">
+            <div class="card h-100 text-white bg-secondary">
+                <div class="card-body">
+                    <h5 class="card-title text-center">{{ country.countryName }}</h5>
+                    <p class="card-text">{{ country.population }}</p>
+                </div>
+                <button class="btn btn-secondary stretched-link" (click)=goToDetail(country.countryName)></button>
+            </div>
+        </div>
+    </div>
+<!-- =============================================================================================================================================================================== -->
+    <div class="row py-lg-2">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h2 class="text-secondary">Three Largest Countries (Area)</h2>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 d-flex justify-content-center">
+        <!-- <div class="col mb-4">
+            <div class="card h-100 text-white bg-secondary">
+            <div class="card-body">
+                <h5 class="card-title text-center">Country Name</h5>
+                <p class="card-text">Area</p>   
+            </div>
+            <a href="/" class="btn btn-secondary stretched-link" style="text-decoration: none;"></a>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100 text-white bg-secondary">
+                <div class="card-body">
+                <h5 class="card-title text-center">Country Name</h5>
+                <p class="card-text">Area</p>
+                </div>
+            </div>
+        </div> -->
+        <div class="col mb-4" *ngFor="let country of sortByArea() | slice:0:3;let i = index">
+            <div class="card h-100 text-white bg-secondary">
+                <div class="card-body">
+                    <h5 class="card-title text-center">{{ country.countryName }}</h5>
+                    <p class="card-text">{{ country.area }}</p>
+                </div>
+                <button class="btn btn-secondary stretched-link" (click)=goToDetail(country.countryName)></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="text-center container" *ngIf="isInAll">
+    <app-all-countries [countryData] = "countries" (newAllCountryEvent)="forwardData($event)"></app-all-countries>
+</section>
+
+<section class="text-center container" *ngIf="isInDetail">
+    <app-country-detail [countrySingleDetail] = "countrySingle" (DetailEvent)=resetHome()></app-country-detail>
+</section>
+

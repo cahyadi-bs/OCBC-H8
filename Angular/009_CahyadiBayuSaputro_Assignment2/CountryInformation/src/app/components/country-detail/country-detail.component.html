@@ -1,0 +1,53 @@
+
+<div class="container my-3 d-flex justify-content-center">
+    <div class="row">
+        <div class="col">
+            <div class="card text-left" style="width: 25rem;">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bold">{{ countrySingleDetail.countryName | uppercase }}</h5>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text text-success">Capital:</p>
+                        </div>
+                        <div class="col">
+                            <p class="card-text">{{ countrySingleDetail.capital }}</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text text-success mt-1">Area:</p>
+                        </div>
+                        <div class="col">
+                            <p class="card-text mt-1">{{ countrySingleDetail.area }} km<sup>2</sup></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text text-success mt-1">Population:</p>
+                        </div>
+                        <div class="col">
+                            <p class="card-text mt-1">{{ countrySingleDetail.population }}</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text text-success mt-1">GDP:</p>
+                        </div>
+                        <div class="col">
+                            <p class="card-text mt-1">{{ countrySingleDetail.gdp | currency:'USD':'code' }}</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text text-success mt-1">Currency:</p>
+                        </div>
+                        <div class="col">
+                            <p class="card-text mt-1">{{ countrySingleDetail.currencyCountry }}</p>
+                        </div>
+                    </div>
+                    <button class="badge badge-pill badge-primary mt-3" (click)=reset()>Go back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

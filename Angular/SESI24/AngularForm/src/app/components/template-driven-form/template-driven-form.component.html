@@ -1,0 +1,29 @@
+<div class="container mt-3">
+    
+    <form (ngSubmit)=handleFormonSubmit(todoForm) #todoForm="ngForm" >
+        <div class="form-group">
+            <label for="name">Task Name</label>
+            <input type="text" name="taskName" id="taskname" class="form-control" autocomplete="off" ngModel required #taskName="ngModel">
+            <div [hidden]="taskName.valid || taskName.pristine" class="alert alert-danger">Task Name is Required</div>
+        </div>
+        <div class="form-group">
+            <label for="category">Category</label>
+            <select name="category" id="category" class="form-control" ngModel #taskCategory="ngModel" >
+                <option value=""></option>
+                <option *ngFor="let category of categories" [value]="category"> {{  category }}</option>
+            </select>
+            <div [hidden]="taskCategory.value !== '' || taskCategory.pristine" class="alert alert-danger">Category is Required</div>
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="!todoForm.form.valid">Submit</button>
+    </form>
+</div>
+
+
+<div class="container mt-5">
+    <ul>
+        <li *ngFor="let task of tasks">
+            {{ task.task }} &#8594; {{ task.category }} &#8594; Status:{{ task.status }}
+        </li>
+    </ul>
+</div>
+

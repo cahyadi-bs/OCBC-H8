@@ -538,3 +538,120 @@ console.log(riyan.studentName)
 2. @017_BayuAJi - yang mendapat error seperti ini 'error TS1056: Accessors are only available when targeting ECMAScript 5 and higher.' (saya dapat kasusnya di cmd, blum coba di PS)
 	cmd
   tsc -t es5 [nama_file.ts]
+
+============================================================================
+SESSION 21: ANGULAR DIRECTIVES
+============================================================================
+
+## Structural Directives
+
+1. ngIf
+2. ngFor
+3. ngSwitch
+
+> Kita harus memberikan tanda `*` sebelum salah satu dari directive di atas
+> Contoh: `*ngIf`, `*ngFor`, `*ngSwitch`
+
+### ngIf
+
+```html
+<p *ngIf="isShown">You found this paragraph.</p>
+```
+
+- cek property `isShown` yang ada di component
+- kalau property `isShown` bernilai falsy, maka paragraf di atas tidak tampil
+- kalau property bernilai truthy, maka paragrafnya muncul
+
+**NOTE**
+
+- Untuk `ng-template`, harus menggunakan `[ngIf]`, tidak bisa menggunakan
+  `*ngIf` ketika menggunakan kondisi untuk menampilkan suatu komponen
+- `*ngIf` akan men-trigger `ngOnDestroy()` ketika component sudah dibuat, namun
+  hasil `*ngIf` berubah menjadi false
+
+### ngFor
+
+`*ngFor` akan melakukan looping terhadap property array. Contoh penerapannya:
+
+- File `<component>.component.ts`
+
+```ts
+// <component>.component.ts
+
+// ...
+export class <Component>Component {
+  items: any[] = [
+    "data",
+    "datum",
+    "person",
+    "people"
+  ]
+}
+```
+**Cara penerapan biasa**
+
+```html
+<!--                           yang ini optional -->
+<ul *ngFor="let item of items; let i = index">
+  <li>{{ item }}</li>
+</ul>
+```
+
+**Dengan `ng-template`**
+
+```html
+<!--                                                              yang ini optional -->
+<!-- ngFor let-<namaVariableSatuan> ngForOf="<namaVariableArray>" let-i="index" -->
+<ul>
+  <ng-template
+    ngFor let-item ngForOf="items" let-i="index"
+  >
+    <li>{{ item }}</li>
+  </ng-template>
+</ul>
+```
+
+### ngSwitch
+
+`ngSwitch` ini terdiri dari 3 bagian:
+- `ngSwitch` di parent attribute
+- `ngSwitchCase` di child attribute
+- `ngSwitchDefault` di child attribute
+
+`ngSwitch` lebih berguna ketika melakukan pagination, salah satunya, dan/atau ketika
+berhadapan dengan 3 kondisi atau lebih -- di mana `ngIf` harus memiliki satu kondisi
+lagi untuk mengisi jika kondisi di luar kondisi-kondisi yang sudah dipilih.
+
+Cara penggunaannya (menggunakan file component yang sama seperti `ngFor`):
+
+```html
+<ul *ngFor="let item of items; let i = index">
+  <ng-template [ngSwitch]="i % 3">
+  <li><
+  </ng-template>
+</ul>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

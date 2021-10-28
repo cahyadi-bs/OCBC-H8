@@ -1,0 +1,52 @@
+<div class="container mt-3">
+    <h1>Login Form</h1>
+    
+    <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+        <div class="form-group">
+            <label for="name">Username</label>
+            <input 
+            type="text" 
+            name="username" 
+            id="username"
+            class="form-control"
+            formControlName="username"
+            (change)="handleIsSubmittedState()"
+            autocomplete="off"
+            >
+            <div *ngIf=" isSubmitted && username && username.invalid" class="alert alert-danger mt-3" role="alert">
+                <div *ngIf="username.errors?.required">
+                    Username is required.
+                </div>
+                  <div *ngIf="username.errors?.minlength">
+                    Username must be at least {{ username?.errors?.minlength?.requiredLength }} characters long.
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input 
+            type="password" 
+            name="password" 
+            id="password"
+            class="form-control"
+            formControlName="password"
+            >
+            <div *ngIf="isSubmitted && password && password.invalid" class="alert alert-danger mt-3" role="alert">
+                <div *ngIf="password.errors?.required">
+                    Password is required.
+                </div>
+                  <div *ngIf="password.errors?.minlength">
+                    Password must be at least 5 characters long.
+                </div>
+            </div>
+        </div>
+
+        <button  type="submit" class="btn btn-primary">Login</button>
+    
+    
+    </form>
+    <div *ngIf="currentUser.isLogin">
+        Sucessfully login. Hello. {{ currentUser.username }}
+    </div>
+</div>

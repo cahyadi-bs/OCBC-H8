@@ -75,6 +75,6 @@ export class TodoListComponent implements OnInit {
   
 
   alertWithSuccess(){
-    Swal.fire('Thank you...', 'You submitted succesfully!', 'success')
+    Swal.fire('Success', 'You added Todo succesfully!', 'success')
   }
 }
