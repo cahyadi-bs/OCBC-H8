@@ -37,7 +37,7 @@
             <div class="card h-100 text-white bg-secondary">
                 <div class="card-body">
                     <h5 class="card-title text-center">{{ country.countryName }}</h5>
-                    <p class="card-text">{{ country.population }}</p>
+                    <p class="card-text">{{ country.population | number }} People</p>
                 </div>
                 <button class="btn btn-secondary stretched-link" (click)=goToDetail(country.countryName)></button>
             </div>
@@ -71,7 +71,7 @@
             <div class="card h-100 text-white bg-secondary">
                 <div class="card-body">
                     <h5 class="card-title text-center">{{ country.countryName }}</h5>
-                    <p class="card-text">{{ country.area }}</p>
+                    <p class="card-text">{{ country.area | number }} km<sup>2</sup></p>
                 </div>
                 <button class="btn btn-secondary stretched-link" (click)=goToDetail(country.countryName)></button>
             </div>

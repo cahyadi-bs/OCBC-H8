@@ -18,7 +18,7 @@
                             <p class="card-text text-success mt-1">Area:</p>
                         </div>
                         <div class="col">
-                            <p class="card-text mt-1">{{ countrySingleDetail.area }} km<sup>2</sup></p>
+                            <p class="card-text mt-1">{{ countrySingleDetail.area | number }} km<sup>2</sup></p>
                         </div>
                     </div>
                     <div class="row">
@@ -26,7 +26,7 @@
                             <p class="card-text text-success mt-1">Population:</p>
                         </div>
                         <div class="col">
-                            <p class="card-text mt-1">{{ countrySingleDetail.population }}</p>
+                            <p class="card-text mt-1">{{ countrySingleDetail.population | number}}</p>
                         </div>
                     </div>
                     <div class="row">
