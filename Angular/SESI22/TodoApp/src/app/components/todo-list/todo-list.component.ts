@@ -13,6 +13,9 @@ export class TodoListComponent implements OnInit {
   
   todos:Todo[] = [];
 
+  editActive = -1
+  editText: string = ''
+
   constructor() { }
 
   ngOnInit(): void {
@@ -27,6 +30,7 @@ export class TodoListComponent implements OnInit {
       }
     ]
   }
+
 
   toggleDone(id:number){
     this.todos.map((v,i) => {
@@ -44,6 +48,16 @@ export class TodoListComponent implements OnInit {
   addTodo(todo: Todo){
     this.todos.push(todo);
     this.alertWithSuccess();
+  }
+
+  activateEdit(index: number) {
+    this.editActive = index
+    this.editText = this.todos.find((v,i) => i === index)!.content
+  }
+
+  saveEdit() {
+    this.todos[this.editActive].content = this.editText
+    this.editActive = -1
   }
 
   confirmBox(id:number){  

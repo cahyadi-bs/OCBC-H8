@@ -1,6 +1,8 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Todo } from 'src/app/models/Todo';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+
+
 @Component({
   selector: 'app-add-todo-form',
   templateUrl: './add-todo-form.component.html',
@@ -10,6 +12,7 @@ export class AddTodoFormComponent implements OnInit {
   @Output() newTodoEvent = new EventEmitter<Todo>();
   inputTodo:string = "";
   isSubmitted = false;
+  error:any = {};
 
   todoForm = new FormGroup({
     taskName: new FormControl('',[
@@ -19,25 +22,30 @@ export class AddTodoFormComponent implements OnInit {
   });
 
   
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
   }
 
+  validateForm(){
+    if(this.taskName?.errors)
+      this.error.taskName = { ...this.taskName?.errors }
+    else
+      delete this.error.taskName
+  }
+
   handlerTodoForm(){
-    this.isSubmitted=true;
-    console.log(this.todoForm)
+    console.log(this.todoForm);
+    this.handleIsSubmittedState(true);
     if(this.todoForm.status === "VALID"){
       this.addTodo(this.todoForm.value.taskName);
       //console.log(this.todoForm.value.taskName);
       this.todoForm.reset();
-    }
+    } 
   }
 
-  handleIsSubmittedState(){
-    if(this.isSubmitted === true){
-      this.isSubmitted = false;
-    }
+  handleIsSubmittedState(state:boolean){
+      this.isSubmitted = state;
   }
 
   get taskName(){
@@ -50,8 +58,6 @@ export class AddTodoFormComponent implements OnInit {
       completed: false
     }
     this.newTodoEvent.emit(todo);
-    this.isSubmitted=false;
+    this.handleIsSubmittedState(false);
   }
-
-  
 }

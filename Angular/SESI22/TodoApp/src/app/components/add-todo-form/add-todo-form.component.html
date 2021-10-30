@@ -15,7 +15,7 @@
         />
     </div>
 </form> -->
-
+<div class="container" style="border: 1mm; border-color: red;"></div>
 <form [formGroup]="todoForm" (ngSubmit)="handlerTodoForm()">
     <div class="input-group mb-3">
         <input 
@@ -25,7 +25,7 @@
         placeholder="Enter your todo ....."
         class="form-control"
         formControlName="taskName"
-        (change)="handleIsSubmittedState()"
+        (focus)="handleIsSubmittedState(false)"
         autocomplete="off"
         >
         <input 
@@ -41,7 +41,7 @@
             Todo Name cannot be empty.
         </div>
         <div *ngIf="taskName.errors?.minlength">
-            Todo name must be {{ taskName?.errors?.minlength?.requiredLength }} characters long.
+            Minimal {{ taskName?.errors?.minlength?.requiredLength }} characters long.
         </div>
     </div>
 </form>
