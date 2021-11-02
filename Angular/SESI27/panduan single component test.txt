@@ -1,0 +1,3 @@
+1. buat project kosong
+2. buat komponen (contoh button )
+3. tambahkan di spec.ts

@@ -1,0 +1,163 @@
+<div class="my-5 d-flex justify-content-center">
+    <div class="card mb-3" style="max-width: 60rem;">
+        <div class="card-header bg-dark text-light">Update New User</div>
+        <div class="card-body">   
+    <form [formGroup]="form" (ngSubmit)="submit()">
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <input 
+                formControlName="title"
+                id="title" 
+                type="text" 
+                [(ngModel)] = "user.title"
+                class="form-control"/>
+
+                <div *ngIf="submitted && f.title.errors">
+                    <small *ngIf="f.title.errors?.required" class="form-text text-danger" >Title is Required</small>
+                    </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col">
+                <label for="firstName">First Name</label>
+            <input 
+            id="firstName"
+            type="text" 
+            class="form-control" 
+            [(ngModel)] = "user.firstName"
+            formControlName="firstName">
+            <div *ngIf="submitted && f.firstName.errors">
+                <small *ngIf="f.firstName.errors?.required" class="form-text text-danger" >First Name is Required</small>
+            </div>
+            </div>
+            <div class="col">
+                <label for="lastName">Last Name</label>
+            <input 
+            type="text" 
+            id="lastName"
+            class="form-control" 
+            [(ngModel)] = "user.lastName"
+            formControlName="lastName">
+            <div *ngIf="submitted && f.lastName.errors">
+                <small *ngIf="f.lastName.errors?.required" class="form-text text-danger" >Last Name is Required</small>  
+            </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input 
+                formControlName="email"
+                id="email" 
+                type="email" 
+                [(ngModel)] = "user.email"
+                class="form-control"/>
+
+                <div *ngIf="submitted && f.email.errors">
+                    <small *ngIf="f.email.errors?.required" class="form-text text-danger" >Email Required</small>
+                    <small *ngIf="f.email.errors?.email" class="form-text text-danger" >Must be valid email address.</small>
+                </div>
+        </div>
+
+        <div class="form-group">
+            <label for="selectRole">Role</label><br>
+                <select id="selectRole" class="custom-select" id="inputGroupSelect01" [(ngModel)] = "user.role" formControlName="role">
+                <option value="" selected>Choose...</option>
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+                </select>
+
+                <div *ngIf="submitted && f.role.errors">
+                    <small *ngIf="f.role.errors?.required" class="form-text text-danger" >Role is Required</small>
+                </div>
+        </div>
+<!-- 
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input 
+                formControlName="password"
+                id="password" 
+                type="password" 
+                class="form-control"/>
+
+                <div *ngIf="submitted && f.password.errors" class="alert alert-danger">
+                    <div *ngIf="f.password.errors?.required">Password is required</div>
+                    <div *ngIf="f.password.errors?.minlength">Minimal 6 character</div>
+                </div>
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input 
+                formControlName="confirmPassword"
+                id="confirmPassword" 
+                type="password" 
+                class="form-control"/>
+
+                <div *ngIf="submitted && f.confirmPassword.errors" class="alert alert-danger">
+                    <div *ngIf="f.confirmPassword.errors?.required">Confirm Password is required</div>
+                    <div *ngIf="f.confirmPassword.errors?.minlength">Minimal 6 character</div>
+                </div>
+        </div> -->
+
+                <!-- ============================================================================================= -->
+                <!-- <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text">Title</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text">First and last name</span>
+                    </div>
+                    <input type="text" class="form-control">
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Role</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                    <option value="" selected>Choose...</option>
+                    <option value="Admin">Admin</option>
+                    <option value="User">User</option>
+                    </select>
+                </div>
+
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text">Title</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text">Password</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text">Confirm Password</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div> -->
+
+                <!-- ============================================================================ -->
+        
+
+                <button class="btn btn-primary mr-2" type="submit">Submit</button>
+                <a href="#" routerLink="/home" class="btn btn-primary">Back</a> 
+            </form>
+        </div>
+        
+    </div>
+    
+    
+
+</div>

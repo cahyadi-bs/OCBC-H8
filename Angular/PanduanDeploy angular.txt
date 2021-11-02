@@ -1,0 +1,2 @@
+1. buat repository baru
+2. menjalankan perintah 'npm i express'

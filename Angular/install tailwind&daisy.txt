@@ -1,0 +1,7 @@
+npm i daisyui
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+npm i @tailwindcss/typography
+npx tailwindcss init
+
+
+config tailwind.config.js
