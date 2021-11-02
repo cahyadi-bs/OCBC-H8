@@ -1,0 +1,50 @@
+<form [formGroup]="inputForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="cardOwnername">CARD OWNER NAME</label>
+        <input 
+            type="text" 
+            class="form-control" 
+            id="cardOwnerName" 
+            placeholder="Full Name"
+            formControlName="cardOwnerName" 
+            [ngClass]="{'border border-danger': f.cardOwnerName.errors && submitted, 'border border-success' : !f.cardOwnerName.errors && submitted }">
+        <div *ngIf="submitted && f.cardOwnerName.errors">
+            <small *ngIf="f.cardOwnerName.errors?.required" class="form-text text-danger" >Card Owner Name is required</small>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cardNumber">CARD NUMBER</label>
+        <input 
+            type="text" 
+            class="form-control" 
+            id="cardNumber" 
+            placeholder="16 Digit Card Number"
+            formControlName="cardNumber"
+            [ngClass]="{'border border-danger': f.cardNumber.errors && submitted, 'border border-success' : !f.cardNumber.errors && submitted }">
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="securityCode">SECURITY CODE</label>
+            <input 
+                type="text" 
+                id="securityCode" 
+                class="form-control" 
+                placeholder="Security Code"
+                formControlName="securityCode"
+                [ngClass]="{'border border-danger': f.securityCode.errors && submitted, 'border border-success' : !f.securityCode.errors && submitted }">
+        </div >
+        <div class="col">
+            <label for="expirationDate">CARD NUMBER</label>
+            <input 
+                type="text" 
+                id="expirationDate" 
+                class="form-control" 
+                placeholder="MM/YY"
+                formControlName="expirationDate"
+                [ngClass]="{'border border-danger': f.expirationDate.errors && submitted, 'border border-success' : !f.expirationDate.errors && submitted }">
+        </div>
+    </div>
+    
+    <button type="submit" class="btn btn-primary btn-md btn-block mt-4">SUBMIT</button>
+
+</form>

@@ -4,13 +4,14 @@
         <div class="card-body">   
     <form [formGroup]="form" (ngSubmit)="submit()">
         <div class="form-group">
-            <label for="title">Title:</label>
-            <input 
-                formControlName="title"
-                id="title" 
-                type="text" 
-                [(ngModel)] = "user.title"
-                class="form-control"/>
+            <label for="selectTitle">Title</label><br>
+                    <select id="selectTitle" class="custom-select" id="inputGroupSelect01" [(ngModel)] = "user.title" formControlName="title">
+                    <option value="" selected>Choose Title...</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Ms">Ms</option>
+                    </select>
 
                 <div *ngIf="submitted && f.title.errors">
                     <small *ngIf="f.title.errors?.required" class="form-text text-danger" >Title is Required</small>

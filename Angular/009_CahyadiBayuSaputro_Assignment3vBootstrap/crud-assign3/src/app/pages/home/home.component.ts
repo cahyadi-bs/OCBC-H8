@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   constructor(public userService:UserService) { }
 
   ngOnInit(): void {
-      this.userService.getAll().subscribe((data: User[])=>{
+    this.userService.getAll().subscribe((data: User[])=>{
       this.users = data;
       console.log(this.users);
     })  

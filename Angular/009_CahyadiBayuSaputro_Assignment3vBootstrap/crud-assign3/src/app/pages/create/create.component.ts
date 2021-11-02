@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from 'src/app/services/user.service';
 import { Router } from '@angular/router';
-import { FormGroup,FormControl, Validators } from '@angular/forms';
+import { FormGroup,FormControl, Validators, AbstractControlOptions } from '@angular/forms';
+import { MustMatch } from 'src/app/helpers/must-match.validator';
 
 
 @Component({
@@ -13,6 +14,8 @@ export class CreateComponent implements OnInit {
   submitted = false;
 
   form!:FormGroup 
+
+  
 
   get title(){
     return this.form.get('title')
@@ -49,6 +52,7 @@ export class CreateComponent implements OnInit {
     }
 
   ngOnInit(): void {
+    const formOptions: AbstractControlOptions = { validators: MustMatch('password', 'confirmPassword') };
     this.form = new FormGroup({
       title: new FormControl('', [Validators.required]),
       firstName: new FormControl('', [Validators.required]),
@@ -64,13 +68,15 @@ export class CreateComponent implements OnInit {
       ]),
       confirmPassword: new FormControl('', [
         Validators.required, Validators.minLength(6)
-      ])
-    });
+      ])} ,formOptions );
+
   }
 
   submit(){
     this.submitted = true;
-    
+    if (this.form.invalid) {
+      return;
+  }
     console.log(this.form.value);
     this.userService.create(this.form.value).subscribe(res => {
         console.log('Post created successfully!');

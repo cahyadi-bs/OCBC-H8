@@ -31,7 +31,7 @@ export class EditComponent implements OnInit {
       this.id = this.route.snapshot.params['userId'];
       this.userService.find(this.id).subscribe((data: User)=>{
       this.user = data;
-
+      
       this.form = new FormGroup({
         title: new FormControl('', [Validators.required]),
         firstName: new FormControl('', [Validators.required]),
